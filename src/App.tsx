@@ -6,7 +6,7 @@ import newJson from "./new.json";
 
 const App = (props: any) => {
     const [oldCode, setOldCode] = React.useState(JSON.stringify(oldJson, null, 4));
-    const [newCode, setNewCode] = React.useState(JSON.stringify(oldJson, null, 4));
+    const [newCode, setNewCode] = React.useState(JSON.stringify(newJson, null, 4));
     return (
         <div>
             <ReactDiffViewer oldValue={oldCode} newValue={newCode} splitView={true} />
