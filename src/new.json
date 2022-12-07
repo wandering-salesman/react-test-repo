@@ -1,0 +1,17 @@
+{
+    "root": {
+        "request_body_schema": {
+            "email": "string",
+            "password": "number",
+            "token": "hgajdladfa;fja"
+        },
+        "request_headers": {
+            "client": "3.133.160.144:3000",
+            "Accept": "*/*",
+            "Content-Type": "application/json",
+            "Content-Length": "58",
+            "Origin": "http://3.133.160.144:3000",
+            "Referer": "http://3.133.160.144:3000/"
+        }
+    }
+}

@@ -1,0 +1,16 @@
+{
+    "root": {
+        "request_body_schema": {
+            "email": "string",
+            "password": "string"
+        },
+        "request_headers": {
+            "Host": "3.133.160.154:3000",
+            "Accept": "application/json, text/plain, */*",
+            "Content-Type": "application/json",
+            "Content-Length": "58",
+            "Origin": "http://3.133.160.154:3000",
+            "Referer": "http://3.133.160.154:3000/"
+        }
+    }
+}
